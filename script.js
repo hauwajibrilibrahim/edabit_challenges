@@ -1,2 +1,10 @@
-//Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far
-const footballPoints = (wins,draws,losses) => wins*3 + draws;
+//Write a function that returns the boolean true if the given number is zero, the string "positive" if the number is greater than zero or the string "negative" if it's smaller than zero
+function equilibrium (x) {
+	if (x > 0) {
+		return "positive"
+	} else if (x < 0) {
+		return "negative"
+	} else {
+		return true
+	}
+}
